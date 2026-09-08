@@ -14,3 +14,7 @@ content-source/**/*.wav
 .DS_Store
 __pycache__/
 *.pyc
+
+# Local staging area for files about to be uploaded as GitHub Release assets --
+# never committed to git history, only attached to a release.
+release-uploads/
