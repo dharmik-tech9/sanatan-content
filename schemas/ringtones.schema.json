@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Sanatan ringtones catalog",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id", "titleGu", "titleHi", "titleEn", "audioUrl", "durationMs",
+      "fileSizeBytes", "featured", "isActive", "sortOrder", "tags"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9_-]+$" },
+      "deityId": { "type": ["string", "null"] },
+      "titleGu": { "type": "string", "minLength": 1 },
+      "titleHi": { "type": "string", "minLength": 1 },
+      "titleEn": { "type": "string", "minLength": 1 },
+      "audioUrl": { "type": "string", "minLength": 1 },
+      "durationMs": { "type": "integer", "minimum": 1 },
+      "fileSizeBytes": { "type": "integer", "minimum": 1 },
+      "featured": { "type": "boolean" },
+      "isActive": { "type": "boolean" },
+      "sortOrder": { "type": "integer", "minimum": 0 },
+      "tags": { "type": "array", "items": { "type": "string" } }
+    }
+  }
+}

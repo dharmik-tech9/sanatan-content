@@ -1,0 +1,16 @@
+# Raw/generated media staged for upload to a GitHub Release never gets
+# committed here -- only catalog JSON, schemas, scripts, and small
+# thumbnails belong in git history. Keep the *.csv metadata sheets (tracked)
+# but ignore every source/generated media file next to them.
+content-source/**/*.jpg
+content-source/**/*.jpeg
+content-source/**/*.png
+content-source/**/*.webp
+content-source/**/*.mp4
+content-source/**/*.mp3
+content-source/**/*.m4a
+content-source/**/*.wav
+
+.DS_Store
+__pycache__/
+*.pyc

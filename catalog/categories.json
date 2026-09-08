@@ -1,0 +1,11 @@
+[
+  { "id": "ram", "nameGu": "શ્રી રામ", "nameHi": "श्री राम", "nameEn": "Shri Ram" },
+  { "id": "shiva", "nameGu": "મહાદેવ", "nameHi": "महादेव", "nameEn": "Lord Shiva" },
+  { "id": "hanuman", "nameGu": "હનુમાન જી", "nameHi": "हनुमान जी", "nameEn": "Hanuman Ji" },
+  { "id": "krishna", "nameGu": "શ્રી કૃષ્ણ", "nameHi": "श्री कृष्ण", "nameEn": "Shri Krishna" },
+  { "id": "ganesha", "nameGu": "ગણેશ જી", "nameHi": "गणेश जी", "nameEn": "Ganesh Ji" },
+  { "id": "durga", "nameGu": "માઁ દુર્ગા", "nameHi": "मां दुर्गा", "nameEn": "Maa Durga" },
+  { "id": "lakshmi", "nameGu": "માઁ લક્ષ્મી", "nameHi": "मां लक्ष्मी", "nameEn": "Maa Lakshmi" },
+  { "id": "khatushyam", "nameGu": "ખાટૂ શ્યામ જી", "nameHi": "खाटू श्याम जी", "nameEn": "Khatu Shyam Ji" },
+  { "id": "featured", "nameGu": "વિશેષ", "nameHi": "विशेष", "nameEn": "Featured" }
+]

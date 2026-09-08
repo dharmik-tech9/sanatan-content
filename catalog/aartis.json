@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ram-kripa-sundar",
+    "deityId": null,
+    "titleGu": "રામ કૃપા સુંદર",
+    "titleHi": "राम कृपा सुंदर",
+    "titleEn": "Ram Kripa Sundar",
+    "coverUrl": "",
+    "audioUrl": "https://github.com/<GITHUB_USERNAME>/sanatan-content/releases/download/aartis-v1/ram-kripa-sundar.mp3",
+    "durationMs": 340000,
+    "fileSizeBytes": 8192443,
+    "lyrics": null,
+    "featured": true,
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": ["aarti"]
+  },
+  {
+    "id": "jai-rudra-bhagwant",
+    "deityId": null,
+    "titleGu": "જય રુદ્ર ભગવંત",
+    "titleHi": "जय रुद्र भगवंत",
+    "titleEn": "Jai Rudra Bhagwant",
+    "coverUrl": "",
+    "audioUrl": "https://github.com/<GITHUB_USERNAME>/sanatan-content/releases/download/aartis-v1/jai-rudra-bhagwant.mp3",
+    "durationMs": 315000,
+    "fileSizeBytes": 7469104,
+    "lyrics": null,
+    "featured": true,
+    "isActive": true,
+    "sortOrder": 1,
+    "tags": ["aarti"]
+  }
+]

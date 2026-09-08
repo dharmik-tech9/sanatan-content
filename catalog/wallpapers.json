@@ -1,0 +1,40 @@
+[
+  {
+    "id": "live_wallpaper_0001",
+    "type": "LIVE",
+    "deityId": null,
+    "categoryId": "featured",
+    "titleGu": "દિવ્ય આધ્યાત્મિક દર્શન",
+    "titleHi": "दिव्य आध्यात्मिक दर्शन",
+    "titleEn": "Divine Spiritual Darshan",
+    "thumbnailUrl": "",
+    "previewUrl": "",
+    "mediaUrl": "https://github.com/<GITHUB_USERNAME>/sanatan-content/releases/download/live-wallpapers-v1/live_wallpaper_0001_full.mp4",
+    "width": 720,
+    "height": 1280,
+    "fileSizeBytes": 4069825,
+    "featured": true,
+    "isActive": true,
+    "sortOrder": 0,
+    "tags": ["live", "featured"]
+  },
+  {
+    "id": "live_wallpaper_0002",
+    "type": "LIVE",
+    "deityId": null,
+    "categoryId": "featured",
+    "titleGu": "સનાતન દિવ્ય પ્રકાશ",
+    "titleHi": "सनातन दिव्य प्रकाश",
+    "titleEn": "Sanatan Divine Light",
+    "thumbnailUrl": "",
+    "previewUrl": "",
+    "mediaUrl": "https://github.com/<GITHUB_USERNAME>/sanatan-content/releases/download/live-wallpapers-v1/live_wallpaper_0002_full.mp4",
+    "width": 720,
+    "height": 1280,
+    "fileSizeBytes": 2841050,
+    "featured": true,
+    "isActive": true,
+    "sortOrder": 1,
+    "tags": ["live", "featured"]
+  }
+]
