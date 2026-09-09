@@ -70,20 +70,6 @@
     "tags": ["bhajan"]
   },
   {
-    "id": "test-pipeline-check",
-    "deityId": null,
-    "titleGu": "પરીક્ષણ - કૃપા કરી અવગણો",
-    "titleHi": "परीक्षण - कृपया अनदेखा करें",
-    "titleEn": "TEST ENTRY - please ignore",
-    "audioUrl": "https://github.com/dharmik-tech9/sanatan-content/releases/download/ringtones-v1/jai-guru-nanak.mp3",
-    "durationMs": 418000,
-    "fileSizeBytes": 10012042,
-    "featured": false,
-    "isActive": true,
-    "sortOrder": 6,
-    "tags": ["test"]
-  },
-  {
     "id": "pitambar",
     "deityId": null,
     "titleGu": "પીતામ્બર નમો કલ્યાણી",
