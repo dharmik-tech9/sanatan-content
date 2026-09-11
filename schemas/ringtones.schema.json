@@ -6,7 +6,7 @@
     "type": "object",
     "required": [
       "id", "titleGu", "titleHi", "titleEn", "audioUrl", "durationMs",
-      "fileSizeBytes", "featured", "isActive", "sortOrder", "tags"
+      "fileSizeBytes", "sha256", "featured", "isActive", "sortOrder", "tags"
     ],
     "additionalProperties": false,
     "properties": {
@@ -18,6 +18,7 @@
       "audioUrl": { "type": "string", "minLength": 1 },
       "durationMs": { "type": "integer", "minimum": 1 },
       "fileSizeBytes": { "type": "integer", "minimum": 1 },
+      "sha256": { "type": "string", "pattern": "^([a-f0-9]{64})?$" },
       "featured": { "type": "boolean" },
       "isActive": { "type": "boolean" },
       "sortOrder": { "type": "integer", "minimum": 0 },

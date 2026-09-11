@@ -1,30 +1,34 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Sanatan wallpapers catalog",
+  "title": "Sanatan mantra chants catalog",
   "type": "array",
   "items": {
     "type": "object",
     "required": [
-      "id", "type", "categoryId", "titleGu", "titleHi", "titleEn",
-      "thumbnailUrl", "previewUrl", "mediaUrl", "width", "height",
-      "fileSizeBytes", "sha256", "featured", "isActive", "sortOrder", "tags"
+      "id", "titleGu", "titleHi", "titleEn", "audioUrl", "durationMs",
+      "fileSizeBytes", "sha256", "lyrics", "featured", "isActive",
+      "sortOrder", "tags"
     ],
     "additionalProperties": false,
     "properties": {
       "id": { "type": "string", "pattern": "^[a-z0-9_-]+$" },
-      "type": { "type": "string", "enum": ["STATIC", "LIVE"] },
       "deityId": { "type": ["string", "null"] },
-      "categoryId": { "type": "string" },
       "titleGu": { "type": "string", "minLength": 1 },
       "titleHi": { "type": "string", "minLength": 1 },
       "titleEn": { "type": "string", "minLength": 1 },
-      "thumbnailUrl": { "type": "string" },
-      "previewUrl": { "type": "string" },
-      "mediaUrl": { "type": "string", "minLength": 1 },
-      "width": { "type": "integer", "minimum": 0 },
-      "height": { "type": "integer", "minimum": 0 },
+      "audioUrl": { "type": "string", "minLength": 1 },
+      "durationMs": { "type": "integer", "minimum": 1 },
       "fileSizeBytes": { "type": "integer", "minimum": 1 },
       "sha256": { "type": "string", "pattern": "^([a-f0-9]{64})?$" },
+      "lyrics": {
+        "type": ["object", "null"],
+        "additionalProperties": false,
+        "properties": {
+          "guUrl": { "type": ["string", "null"] },
+          "hiUrl": { "type": ["string", "null"] },
+          "enUrl": { "type": ["string", "null"] }
+        }
+      },
       "featured": { "type": "boolean" },
       "isActive": { "type": "boolean" },
       "sortOrder": { "type": "integer", "minimum": 0 },

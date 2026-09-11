@@ -1,8 +1,12 @@
 {
-  "schemaVersion": 1,
-  "catalogVersion": 3,
-  "wallpapersVersion": 1,
-  "ringtonesVersion": 3,
-  "aartisVersion": 1,
+  "schemaVersion": 2,
+  "catalogVersion": 4,
+  "wallpapersVersion": 2,
+  "ringtonesVersion": 4,
+  "aartisVersion": 2,
+  "mantraTracksVersion": 1,
+  "bhajansVersion": 1,
+  "chalisasVersion": 1,
+  "gitasVersion": 1,
   "minimumAppVersionCode": 1
 }

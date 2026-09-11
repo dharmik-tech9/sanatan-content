@@ -13,7 +13,9 @@
     "featured": true,
     "isActive": true,
     "sortOrder": 0,
-    "tags": ["aarti"]
+    "tags": [
+      "aarti"
+    ]
   },
   {
     "id": "jai-rudra-bhagwant",
@@ -29,6 +31,46 @@
     "featured": true,
     "isActive": true,
     "sortOrder": 1,
-    "tags": ["aarti"]
+    "tags": [
+      "aarti"
+    ]
+  },
+  {
+    "id": "swaminarayan-aarti",
+    "deityId": null,
+    "titleGu": "સ્વામિનારાયણ આરતી",
+    "titleHi": "स्वामिनारायण आरती",
+    "titleEn": "Swaminarayan Aarti",
+    "coverUrl": "",
+    "audioUrl": "https://github.com/dharmik-tech9/sanatan-content/releases/download/aartis-v1/swaminarayan_aarti.ogg",
+    "durationMs": 245000,
+    "fileSizeBytes": 5410330,
+    "sha256": "03e2c0583d0b8827fc51da971b434e0776ea4aa1c1f2b46d8b136834f52eb274",
+    "featured": true,
+    "isActive": true,
+    "sortOrder": 10,
+    "tags": [
+      "aarti"
+    ],
+    "lyrics": null
+  },
+  {
+    "id": "santoshi-mata-aarti",
+    "deityId": null,
+    "titleGu": "સંતોષી માતા આરતી",
+    "titleHi": "संतोषी माता आरती",
+    "titleEn": "Santoshi Mata Aarti",
+    "coverUrl": "",
+    "audioUrl": "https://github.com/dharmik-tech9/sanatan-content/releases/download/aartis-v1/santoshi_mata_aarti.ogg",
+    "durationMs": 152260,
+    "fileSizeBytes": 1787480,
+    "sha256": "274c46d3bc8d1d730d9d1220dadc9ac32aab48f733ca28b9fe9015381dfb456e",
+    "featured": true,
+    "isActive": true,
+    "sortOrder": 20,
+    "tags": [
+      "aarti"
+    ],
+    "lyrics": null
   }
 ]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gayatri-mantra",
+    "deityId": null,
+    "titleGu": "ગાયત્રી મંત્ર",
+    "titleHi": "गायत्री मंत्र",
+    "titleEn": "Gayatri Mantra",
+    "audioUrl": "https://github.com/dharmik-tech9/sanatan-content/releases/download/mantras-v1/gayatri_mantra.ogg",
+    "durationMs": 21000,
+    "fileSizeBytes": 988195,
+    "sha256": "5ee305bed7630cc4a98803f3d00ecb3b913d643dde929209e4bc1af2efa258c3",
+    "featured": true,
+    "isActive": true,
+    "sortOrder": 10,
+    "tags": [
+      "universal"
+    ],
+    "lyrics": null
+  },
+  {
+    "id": "mahamrityunjaya-mantra",
+    "deityId": "shiva",
+    "titleGu": "મહામૃત્યુંજય મંત્ર",
+    "titleHi": "महामृत्युंजय मंत्र",
+    "titleEn": "Mahamrityunjaya Mantra",
+    "audioUrl": "https://github.com/dharmik-tech9/sanatan-content/releases/download/mantras-v1/mrityunjaya.ogg",
+    "durationMs": 18000,
+    "fileSizeBytes": 514686,
+    "sha256": "52779631693f59565bd7177e978b6b0f0150623d207d36a46743e7ad595553d1",
+    "featured": true,
+    "isActive": true,
+    "sortOrder": 20,
+    "tags": [
+      "shiva"
+    ],
+    "lyrics": null
+  },
+  {
+    "id": "om-namo-bhagavate-vasudevaya",
+    "deityId": "vishnu",
+    "titleGu": "ૐ નમો ભગવતે વાસુદેવાય",
+    "titleHi": "ॐ नमो भगवते वासुदेवाय",
+    "titleEn": "Om Namo Bhagavate Vasudevaya",
+    "audioUrl": "https://github.com/dharmik-tech9/sanatan-content/releases/download/mantras-v1/om_namo_bhagavate_vasudevaya.oga",
+    "durationMs": 4000,
+    "fileSizeBytes": 61874,
+    "sha256": "804223b5f9f47c8770840e9e6f23cbc9b94cf8ccfa3ac22c7cb57ca07ed385b3",
+    "featured": false,
+    "isActive": true,
+    "sortOrder": 30,
+    "tags": [
+      "vishnu"
+    ],
+    "lyrics": null
+  },
+  {
+    "id": "om-namah-shivaya",
+    "deityId": "shiva",
+    "titleGu": "ૐ નમઃ શિવાય",
+    "titleHi": "ॐ नमः शिवाय",
+    "titleEn": "Om Namah Shivaya",
+    "audioUrl": "https://github.com/dharmik-tech9/sanatan-content/releases/download/mantras-v1/om_namah_shivaya.wav",
+    "durationMs": 5120,
+    "fileSizeBytes": 163970,
+    "sha256": "4d7873aa9083f4a3cdef08267a4af88895870e04e95e848aa4c93e035d3076c1",
+    "featured": true,
+    "isActive": true,
+    "sortOrder": 40,
+    "tags": [
+      "shiva"
+    ],
+    "lyrics": null
+  }
+]
